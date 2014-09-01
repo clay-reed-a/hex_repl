@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<section>
+	<header>
+		<h1>Learn Hex Codes</h1>
+		<nav>
+
+		</nav>
+	</header>
+
+	<section id="model">
+		<div>
+			<h1>How To Learn Hex Color Codes:</h1>
+			<ol>
+				<li>Enter a Hex Color Code</li>
+				<li>Press enter</li>
+				<li>Do you know hex color codes?
+					<ul>
+						<li>If yes, stop.</li>
+						<li>If no, are you tired?
+							<ul>
+								<li>If yes, rest.</li>
+								<li>If no, go to step 1.</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<input id="input" type="text">
+		<button id="button">Enter</button>
+	</section>
+</section>
+<script>
+
+function change_background() {
+	var hex_code = document.getElementById("input").value;
+	document.getElementById("model").style.backgroundColor = hex_code; 
+};
+
+var button = document.getElementById("button");
+button.onclick = change_background(); 
+
+
+
+document.onkeydown = function() {
+	console.log("NO, KEY PRESS EXIST");
+	if(window.event.type == "keydown") {
+		console.log("NO, KEY DOWNS EXIST\n" + event);
+		if(event.charCode == 13 || event.keyCode == 13){
+			console.log("NO, ENTERS EXIST");
+			change_background();
+		};
+	};
+};
+</script> 
+</body>
+</html>
