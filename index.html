@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Learn Hex Codes</title>
+	<link rel="stylesheet" type="text/css" href="/lib/styles.css">
 </head>
 <body>
 <section>
@@ -13,24 +14,12 @@
 		</nav>
 	</header>
 
-	<section id="model">
-		<div>
-			<h1>How To Learn Hex Color Codes:</h1>
-			<ol>
-				<li>Enter a Hex Color Code</li>
-				<li>Press enter</li>
-				<li>Do you know hex color codes?
-					<ul>
-						<li>If yes, stop.</li>
-						<li>If no, are you tired?
-							<ul>
-								<li>If yes, rest.</li>
-								<li>If no, go to step 1.</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ol>
+	<section>
+		<h2>The Model</h2>
+		<div id="model">
+			<div id="red_hex"></div>
+			<div id="green_hex"></div>
+			<div id="blue_hex"></div>
 		</div>
 		<input id="input" type="text">
 		<button id="button">Enter</button>
@@ -38,23 +27,74 @@
 </section>
 <script>
 
-function change_background() {
-	var hex_code = document.getElementById("input").value;
-	document.getElementById("model").style.backgroundColor = hex_code; 
+function changeBackground(color, id) {
+	document.getElementById(id).style.backgroundColor = color; 
+};
+
+function getHexCodeInput() {
+	return document.getElementById("input").value;
+}; 
+
+// red byte, green byte, blue byte 
+
+function extractHexRed(hex_str) {
+	if(hex_str.length == 6){
+		return '#' + hex_str.substring(0,2) + "0000";
+	} else {
+		return '#' + hex_str[0] + "00";
+	};
+};
+
+function extractHexGreen(hex_str) {
+	if(hex_str.length == 6){
+		return "#00" + hex_str.substring(2,4) + "00";
+	} else {
+		return "#0" + hex_str[1] + '0';
+	};
+};
+
+function extractHexBlue(hex_str) {
+	if(hex_str.length == 6){
+		return "#0000" + hex_str.substring(4,6);
+	} else {
+		return "#00" + hex_str[2];
+	};
 };
 
 var button = document.getElementById("button");
-button.onclick = change_background(); 
+button.onclick = function() {
+		var input = getHexCodeInput(); 
+		var hexCode = '#' + input; 
+		console.log("The Hex Code is: " + hexCode);
+		var redness = extractHexRed(input);
+		console.log("Redness is: " + redness);
+		var greenness = extractHexGreen(input);
+		console.log("Greenness is: " + greenness);
+		var blueness = extractHexBlue(input);
+		console.log("Blueness is: " + blueness); 
+		changeBackground(hexCode, "model");
+		changeBackground(redness, "red_hex");
+		changeBackground(greenness, "green_hex");
+		changeBackground(blueness, "blue_hex");
+}; 
 
-
-
+// so user can use enter key as well as enter button 
 document.onkeydown = function() {
-	console.log("NO, KEY PRESS EXIST");
 	if(window.event.type == "keydown") {
-		console.log("NO, KEY DOWNS EXIST\n" + event);
 		if(event.charCode == 13 || event.keyCode == 13){
-			console.log("NO, ENTERS EXIST");
-			change_background();
+			var input = getHexCodeInput(); 
+			var hexCode = '#' + input; 
+			console.log("The Hex Code is: " + hexCode);
+			var redness = extractHexRed(input);
+			console.log("Redness is: " + redness);
+			var greenness = extractHexGreen(input);
+			console.log("Greenness is: " + greenness);
+			var blueness = extractHexBlue(input);
+			console.log("Blueness is: " + blueness); 
+			changeBackground(hexCode, "model");
+			changeBackground(redness, "red_hex");
+			changeBackground(greenness, "green_hex");
+			changeBackground(blueness, "blue_hex");
 		};
 	};
 };

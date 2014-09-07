@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div#model {
+	width: 15em;
+	height: 15em;
+	background-color: gray;
+
+}
+
+div#model div#red_hex,
+div#model div#green_hex,
+div#model div#blue_hex {
+	float: left;
+	width: 5em;
+	height: 5em;
+	margin: auto;
+
+}
+
+div#red_hex {
+	background-color: red;
+}
+
+div#blue_hex {
+	background-color: blue;
+
+}
+
+div#green_hex {
+	background-color: green; 
+
+}
