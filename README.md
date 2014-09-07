@@ -5,4 +5,4 @@ Project Learn Hex Codes
 
 Conscious use of the interaction should ultimately impart onto the student the ability to independently form & confidently manipulate hex color code sequences. 
 
-The Project will also include some introductory material about hex color codes.
+The Project will also include some introductory material about hex color codes. 
