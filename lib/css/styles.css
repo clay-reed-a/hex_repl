@@ -1,10 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Hind);
+
 * {
 	margin: 0;
 	padding: 0;
+
+}
+
+body {
+	font-family: Hind, sans-serif;
+}
+
+header {
+	overflow: auto;
+	background-color: blue;
+}
+
+h1 {
+	font-size: 245%;
+
+}
+
+nav ul li {
+	list-style-type: none; 
+	float: left;
+	font-size: 165%;
+	margin-right: 1em;
+}
+
+nav ul li a {
+	text-decoration: none; 
+
+}
+
+nav ul li a:visited, 
+nav ul li a:link {
+	color: black;
+
+}
+
+h2 {
+	font-size: 250%;
+
 }
 
 section.model {
+}
 
+div.wrapper {
+	margin: auto;
+	width: 50%;
 }
 
 #display_color {
@@ -40,10 +84,33 @@ section.model {
 	background-color: red;
 }
 
-#hex_input {
+#hex_input, #enter_button {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: none;
+}
+
+div.input {
+	width: 25em;
+	margin: auto;
+	margin-top: 3em; 
 
 }
 
-#enter_button {
 
+#hex_input {
+
+	width: 3.4em;
+	height: 1.25em;
+	font-size: 4.5em;
+}
+
+#enter_button {
+	height: 8em;
+	width: 8em;
 } 
+
+#hex_input:focus, #enter_button:focus {
+	outline: none;
+}
