@@ -3,33 +3,47 @@
 	padding: 0;
 }
 
-div#model {
-	width: 15em;
-	height: 15em;
+section.model {
+
+}
+
+#display_color {
+	position: relative;
+	width: 20em;
+	height: 20em;
+	margin: auto;
 	background-color: gray;
 
 }
 
-div#model div#red_hex,
-div#model div#green_hex,
-div#model div#blue_hex {
-	float: left;
+#display_red,
+#display_green,
+#display_blue {
+	position: absolute;
+	bottom: -2.5em;
+	left: -2.5em;
 	width: 5em;
 	height: 5em;
-	margin: auto;
-
 }
 
-div#red_hex {
+#display_green {
+	margin-left: 5em;
+	background-color: green; 
+}
+
+#display_blue {
+	background-color: blue;
+	margin-left: 10em;
+}
+
+#display_red {
 	background-color: red;
 }
 
-div#blue_hex {
-	background-color: blue;
+#hex_input {
 
 }
 
-div#green_hex {
-	background-color: green; 
+#enter_button {
 
-}
+} 
