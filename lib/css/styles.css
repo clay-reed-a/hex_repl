@@ -89,6 +89,8 @@ div.wrapper {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	border: none;
+	display: block;
+	float: left;
 }
 
 div.input {
