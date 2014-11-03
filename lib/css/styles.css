@@ -11,8 +11,8 @@ body {
 }
 
 header {
+	padding: 0 1em;
 	overflow: auto;
-	background-color: blue;
 }
 
 h1 {
@@ -109,8 +109,10 @@ div.input {
 }
 
 #enter_button {
-	height: 8em;
-	width: 8em;
+	height: 3em;
+	width: 3em;
+	font-size: 200%;  
+	background-color: gray; 
 } 
 
 #hex_input:focus, #enter_button:focus {
