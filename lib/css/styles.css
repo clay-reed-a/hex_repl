@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	padding: 0 1em;
+	padding: .5em 0 2em 1.35em;
 	overflow: auto;
 }
 
