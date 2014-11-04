@@ -82,13 +82,15 @@ div.wrapper {
 	background-color: red;
 }
 
-#hex_input, #enter_button {
+#hex_input, #enter_button,
+#input_label, #input_arrow {
 	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	border: none;
 	display: block;
 	float: left;
+	position: relative;
 }
 
 div.input {
@@ -97,17 +99,26 @@ div.input {
 	margin-top: 3em; 
 }
 
+#input_label {
+	left: -6em;
+
+}
+
+#input_arrow {
+	font-size: 3em;
+	margin-right: 0.25em;
+
+}
 
 #hex_input {
-	width: 3.4em;
+	width: 4.4em;
 	height: 1.25em;
 	font-size: 4.5em;
 }
 
 #enter_button {
-	position: relative;
 	top: -3.5em;
-	left: 1em;
+	left: -3.5em;
 	height: 5.8em;
 	width: 5em;
 	font-size: 200%;  
