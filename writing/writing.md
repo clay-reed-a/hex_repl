@@ -1,32 +1,38 @@
-Things to understand:
---------------------- 
+Confused? 
+---------
 
-###Bytes & binary
+###What are hex color codes?
 
-Why are there ones & zeros inside computers?  
+Hex color codes are a way to tell a browser what color you want a part of a webpage to be. 
 
-###Number vs. representation of number 
+###I know *THAT*, but how do I make one?
 
-In a way, Hex Codes are just numbers. 
+Hex color codes are formed from three numbers. Each number stands for a certain color. The first number is for red, the second is for green & the third is for blue. If you mix these colors together, you can get more colors. 
 
-Most of the time, we go around thinking "10" is the number 10, and that's just that.
+Each number is two digits long, but, instead of going from just `0` to `9`, each digit can go all the way up to `f`. 
 
-If you have done any coding at all, you have probably at one time or another spent a good hour pulling your hair out over a misunderstanding that turned out to be as ridiculous as:
+###But `f` isn't a number! 
 
-    if (10 === "10") {
-    	console.log("Yup, that's the number 10!"); 
-    } else {
-    	console.log("That is, like, not the number 10. What is that?");
-    }
- 
-You can look at any "10" & I can look at any "10", anytime, anywhere, and we'll both recognize it as the number 10. Now I'm going to tell you this is wrong. 
+`a` continues from where `9` left by meaning 10. This way `b` can mean 11 and `c` 12, all the way up to `f`, which is 15. So you can count all the way to 15 only using one digit. With two digits you can go to 255.   
 
-In reality, this is just like how we can look at a word like "beaded" & think of, say, a necklace, perhaps one of a lovely pastel purple, like the kind of purple seen inside a sea shell. It makes sense because some necklaces are beaded & some beads are purple, so a beaded necklace could be a purple necklace. But there is no purple & there is no necklace, there is only "beaded". 
+###Why do I need to do that?
 
-The way a computer language interprets "10" is not as the number 10, but as a sequence of symbols: to wit, the symbol "1" followed by the symbol "0". There isn't even anything inherent to the symbols in "10" that make the concept of the number ten appear in our minds. 
+How big or small the number is tells how much to add of a certain color to get the color you want. If the number for blue is `00`, you do not need any blue to get the color you want. If the number for blue is `ff`, you need as much blue as you can get. We use the letters in hex to get as big a number as we can w/o having to write so many digits. 
 
-How can it be 11110000, f0 & 240 are all the same number?  
+###OK, how many colors can I get? 
 
-###additive colors & light 
+You can make 16,777,216 different colors with hex color codes. 
 
-Rainbows. Prisms. Black as an absence of color. 
+When you have some slots to put symbols in, start by count all the symbols you can put in each slot. How many combinations you can make is the number of symbols you have taken to the power of how many slots you have. 
+
+With hex, for each color slot we can count to 255, but we can also say zero. So any of the three colors has 256 symbols. If you cube 256, you get 16,777,216. 
+
+There are so many hex colors, it is hard to remember how to make the colors you want. I made this site because I wanted to be able to play with hex colors until I understood them. If you play with it, I think you'll start to get a feeling for the patterns. Then maybe you'll not have to use it anymore when you want a hex color. 
+
+###I wanna make purple. No, actually I wanna make my favorite kind of green. 
+
+If there's a color you add more of than you do the other two, that color will always decide what color you get. Adding a little bit more or a little bit less of the other two colors will change it. 
+
+If you add mostly blue and red, you'll get purple. If you add mostly green and red, you'll get yellow. Adding blue and green together will get you some interesting blues, like teal and cyan. 
+
+The weird thing is that if you add hardly any colors at all, you'll get black or a really dark color. And if you add a whole lot of all the colors, you'll get white. This is because the colors on the screen are made by mixing light together, and, if you don't have any light, it is dark. 
