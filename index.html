@@ -4,36 +4,60 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, 
 minimum-scale=1.0, maximum-scale=1.0">
-	<title>Learn Hex Codes</title>
+	<title>Hex Color REPL</title>
 	<link rel="stylesheet" type="text/css" href="/lib/css/styles.css">
 	<script src="/lib/js/model.js"></script>
 	<script src="lib/js/site.js"></script>
-	<script src="lib/js/input.js"></script>
 </head>
 <body>
 <section>
 	<header>
-		<h1>Learn Hex Codes</h1>
+		<h1>Hex Color REPL</h1>
 		<nav>
 			<ul>
 				<li><a href='/'>Home</a></li>
 				<li><a href="/about">About</a></li>
-				<li><a href="/info">Info</a></li>
+				<li><a href="/wtf">WTF?</a></li>
 			</ul>
 		</nav>
 	</header>
+		<section class="home">
+			<div id="messages">
+				<section class="use">
+					<h2>How It Works:</h2>
 
-		<div class="wrapper">
-			<div id="display_color">
-				<div id="display_red"></div>
-				<div id="display_green"></div>
-				<div id="display_blue"></div>
+<ol>
+<li>Enter a hex color code</li>
+<li>Press enter</li>
+<li>Do you know hex color codes?
+
+<ul>
+<li>If yes, stop.</li>
+<li>If no, are you tired?
+
+<ul>
+<li>If yes, rest.</li>
+<li>if no, go to step 1.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+				</section>
 			</div>
-			<div class="input">
-				<label id="input_label"><span id="input_arrow">↳</span><input id="hex_input" autofocus></label>
-				<button id="enter_button">Enter</button>
+			<div class="wrapper">
+				<div id="display_color">
+					<div id="display_red"></div>
+					<div id="display_green"></div>
+					<div id="display_blue"></div>
+				</div>
+				<div class="input">
+					<label id="input_label"><span id="input_arrow">↳</span><input id="hex_input" autofocus></label>
+					
+				</div>
 			</div>
-		</div>
+		</section>
 
 </section>
 </body>

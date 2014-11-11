@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	padding: 1.25em 0 2em 1.25em;
+	padding: 1em 0 2em 1.5em;
 	overflow: auto;
 }
 
@@ -39,13 +39,29 @@ nav ul li a:link {
 }
 
 h2 {
-	font-size: 250%;
+	font-size: 200%;
+
+}
+
+div#messages {
+	float: left;
+	width: 50%;
+}
+
+section.use {
+	width: 15em;
+	margin: auto;
+
+}
+
+li ul {
+	padding-left: 1em;
 
 }
 
 div.wrapper {
 	position: relative; 
-	margin: auto;
+	float: left;
 	width: 20em;
 }
 
@@ -82,7 +98,7 @@ div.wrapper {
 	background-color: red;
 }
 
-#hex_input, #enter_button,
+#hex_input, 
 #input_label, #input_arrow {
 	appearance: none;
 	-webkit-appearance: none;
@@ -116,15 +132,6 @@ div.input {
 	font-size: 4.5em;
 }
 
-#enter_button {
-	top: -3.5em;
-	left: -3.5em;
-	height: 5.8em;
-	width: 5em;
-	font-size: 200%;  
-	background-color: gray; 
-} 
-
-#hex_input:focus, #enter_button:focus {
+#hex_input:focus {
 	outline: none;
 }

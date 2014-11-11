@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, 
 minimum-scale=1.0, maximum-scale=1.0">
-	<title>Learn Hex Codes</title>
+	<title>Hex Color REPL</title>
 	<link rel="stylesheet" type="text/css" href="/lib/css/styles.css">
 	<script src="/lib/js/model.js"></script>
 	<script src="lib/js/site.js"></script>
@@ -12,27 +12,33 @@ minimum-scale=1.0, maximum-scale=1.0">
 <body>
 <section>
 	<header>
-		<h1>Learn Hex Codes</h1>
+		<h1>Hex Color REPL</h1>
 		<nav>
 			<ul>
 				<li><a href='/'>Home</a></li>
 				<li><a href="/about">About</a></li>
-				<li><a href="/info">Info</a></li>
+				<li><a href="/wtf">WTF?</a></li>
 			</ul>
 		</nav>
 	</header>
-
-		<div class="wrapper">
-			<div id="display_color">
-				<div id="display_red"></div>
-				<div id="display_green"></div>
-				<div id="display_blue"></div>
+		<section class="home">
+			<div id="messages">
+				<section class="use">
+					<!-- @import writing/use.html -->
+				</section>
 			</div>
-			<div class="input">
-				<label id="input_label"><span id="input_arrow">↳</span><input id="hex_input" autofocus></label>
-				<button id="enter_button">Enter</button>
+			<div class="wrapper">
+				<div id="display_color">
+					<div id="display_red"></div>
+					<div id="display_green"></div>
+					<div id="display_blue"></div>
+				</div>
+				<div class="input">
+					<label id="input_label"><span id="input_arrow">↳</span><input id="hex_input" autofocus></label>
+					
+				</div>
 			</div>
-		</div>
+		</section>
 
 </section>
 </body>
