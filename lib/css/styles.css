@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-
+	box-sizing: border-box;
 }
 
 .no_show {
@@ -73,25 +73,29 @@ h3 {
 	line-height: 1em;
 }
 
+/* MESSAGES */
+
 div#messages {
 	float: left;
 	width: 50%;
 	height: 25em;
-	margin-right: 5em;
+	/*margin-right: 5em;*/
+	padding: 0 5em;
 	overflow-y: scroll;
-	overflow-x: none;
+	overflow-x: hidden;
 }
+
+/* WRITING */
 
 section.writing,
 section.about {
-	width: 30em;
-	margin-left: 6em;
+	/*margin-left: 6em;*/
+	margin: auto;
+	max-width: 30em;
 }
 
 section.use {
-	width: 15em;
-	margin: auto;
-	padding-left: 25em;
+	float: right;
 }
 
 section.use h2 {
@@ -104,10 +108,13 @@ li ul {
 
 }
 
+/* MODEL */
+
 div.wrapper {
 	position: relative; 
 	float: left;
-	width: 20em;
+	width: 50%;
+	padding: 0 5em;
 }
 
 #display_color {
@@ -151,13 +158,14 @@ div.wrapper {
 	border: none;
 	display: block;
 	float: left;
-	position: relative;
+	/*position: relative;*/
 }
 
 div.input {
-	width: 35em;
-	margin: auto;
-	margin-top: 3em; 
+	position: absolute;
+	width: 20em;
+	margin-left: -2.5em;
+	margin-top: 22.75em; 
 }
 
 #input_label {
@@ -167,8 +175,9 @@ div.input {
 
 #input_arrow {
 	font-size: 3em;
-	margin-right: 0.25em;
-
+	position: absolute;
+	margin-left: -1.5em;
+	margin-top: 0.25em;
 }
 
 #hex_input {
