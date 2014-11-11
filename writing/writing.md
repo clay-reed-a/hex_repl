@@ -1,29 +1,27 @@
-Confused? 
----------
 
-###What are hex color codes?
+###What's a hex color?
 
 Hex color codes are a way to tell a browser what color you want a part of a webpage to be. 
 
-###I know *THAT*, but how do I make one?
+###Well, I know *THAT*, but how do I make one?
 
-Hex color codes are formed from three numbers. Each number stands for a certain color. The first number is for red, the second is for green & the third is for blue. If you mix these colors together, you can get more colors. 
+Hex color codes are formed from three numbers. Each number stands for a certain color. The first number is for red, the second is for green & the third is for blue. If you mix these colors together, you can make more colors. 
 
 Each number is two digits long, but, instead of going from just `0` to `9`, each digit can go all the way up to `f`. 
 
-###But `f` isn't a number! 
+###But F isn't a number! 
 
-`a` continues from where `9` left by meaning 10. This way `b` can mean 11 and `c` 12, all the way up to `f`, which is 15. So you can count all the way to 15 only using one digit. With two digits you can go to 255.   
+We use `a` to continue from where `9` left off with 10. This way `b` can mean 11 and `c` 12, all the way up to `f`, which is 15. So you can count all the way to 15 only using one digit. With two digits you can go to 255.   
 
 ###Why do I need to do that?
 
-How big or small the number is tells how much to add of a certain color to get the color you want. If the number for blue is `00`, you do not need any blue to get the color you want. If the number for blue is `ff`, you need as much blue as you can get. We use the letters in hex to get as big a number as we can w/o having to write so many digits. 
+How big or small the number is tells how much to add of a certain color to make the color you want. If the number for blue is `00`, you do not need any blue to make the color you want. If the number for blue is `ff`, you need as much blue as you can get. We use the letters in hex to make as big a number as we can w/o having to write so many digits. 
 
-###OK, how many colors can I get? 
+###OK, how many colors can I make? 
 
 You can make 16,777,216 different colors with hex color codes. 
 
-When you have some slots to put symbols in, start by count all the symbols you can put in each slot. How many combinations you can make is the number of symbols you have taken to the power of how many slots you have. 
+When you have some slots to put symbols in, start by counting all the symbols you can put in each slot. How many combinations you can make is the number of symbols you have taken to the power of how many slots you have. 
 
 With hex, for each color slot we can count to 255, but we can also say zero. So any of the three colors has 256 symbols. If you cube 256, you get 16,777,216. 
 

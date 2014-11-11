@@ -1,4 +1,5 @@
-###What is this?
+What is this? 
+-------------
 
 Hex Color REPL helps you learn hex color codes. [Clayton][] wanted to write hex color codes without a tool like Photoshop open. He knew he needed to practice seeing what codes made what colors. 
 

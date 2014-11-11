@@ -14,16 +14,16 @@ minimum-scale=1.0, maximum-scale=1.0">
 		<h1>Hex Color REPL</h1>
 		<nav>
 			<ul>
-				<li><a href='/'>Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/wtf">WTF?</a></li>
+				<li><a href='/' id="home_link">Home</a></li>
+				<li><a href="/about" id="about_link">About</a></li>
+				<li><a href="/wtf" id="writing_link">WTF?</a></li>
 			</ul>
 		</nav>
 	</header>
 		<section class="home">
 			<div id="messages">
 				<section class="no_show about">
-					<h3>What is this?</h3>
+					<h2>What is this? </h2>
 
 <p>Hex Color REPL helps you learn hex color codes. <a href="http://claytonalbachten.com" title="Clayton's personal site">Clayton</a> wanted to write hex color codes without a tool like Photoshop open. He knew he needed to practice seeing what codes made what colors.</p>
 
@@ -32,31 +32,29 @@ minimum-scale=1.0, maximum-scale=1.0">
 <p>For some examples of <a href="http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop" title="Wikipedia article for REPLs">REPLs</a>, look at <a href="http://common-lisp.net/project/slime/" title="Offical page for SLIME">SLIME&rsquo;s</a> <a href="http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop" title="Wikipedia article for REPLs">REPL</a>, <a href="http://pryrepl.org/" title="Offical page for pry"><code>pry</code></a> or your browser&rsquo;s JavaScript console.</p>
 				</section>
 				<section class="no_show writing">
-					<h2>Confused? </h2>
-
-<h3>What are hex color codes?</h3>
+					<h3>What&rsquo;s a hex color?</h3>
 
 <p>Hex color codes are a way to tell a browser what color you want a part of a webpage to be.</p>
 
-<h3>I know <em>THAT</em>, but how do I make one?</h3>
+<h3>Well, I know <em>THAT</em>, but how do I make one?</h3>
 
-<p>Hex color codes are formed from three numbers. Each number stands for a certain color. The first number is for red, the second is for green &amp; the third is for blue. If you mix these colors together, you can get more colors.</p>
+<p>Hex color codes are formed from three numbers. Each number stands for a certain color. The first number is for red, the second is for green &amp; the third is for blue. If you mix these colors together, you can make more colors.</p>
 
 <p>Each number is two digits long, but, instead of going from just <code>0</code> to <code>9</code>, each digit can go all the way up to <code>f</code>.</p>
 
-<h3>But <code>f</code> isn&rsquo;t a number!</h3>
+<h3>But F isn&rsquo;t a number!</h3>
 
-<p><code>a</code> continues from where <code>9</code> left by meaning 10. This way <code>b</code> can mean 11 and <code>c</code> 12, all the way up to <code>f</code>, which is 15. So you can count all the way to 15 only using one digit. With two digits you can go to 255.</p>
+<p>We use <code>a</code> to continue from where <code>9</code> left off with 10. This way <code>b</code> can mean 11 and <code>c</code> 12, all the way up to <code>f</code>, which is 15. So you can count all the way to 15 only using one digit. With two digits you can go to 255.</p>
 
 <h3>Why do I need to do that?</h3>
 
-<p>How big or small the number is tells how much to add of a certain color to get the color you want. If the number for blue is <code>00</code>, you do not need any blue to get the color you want. If the number for blue is <code>ff</code>, you need as much blue as you can get. We use the letters in hex to get as big a number as we can w/o having to write so many digits.</p>
+<p>How big or small the number is tells how much to add of a certain color to make the color you want. If the number for blue is <code>00</code>, you do not need any blue to make the color you want. If the number for blue is <code>ff</code>, you need as much blue as you can get. We use the letters in hex to make as big a number as we can w/o having to write so many digits.</p>
 
-<h3>OK, how many colors can I get?</h3>
+<h3>OK, how many colors can I make?</h3>
 
 <p>You can make 16,777,216 different colors with hex color codes.</p>
 
-<p>When you have some slots to put symbols in, start by count all the symbols you can put in each slot. How many combinations you can make is the number of symbols you have taken to the power of how many slots you have.</p>
+<p>When you have some slots to put symbols in, start by counting all the symbols you can put in each slot. How many combinations you can make is the number of symbols you have taken to the power of how many slots you have.</p>
 
 <p>With hex, for each color slot we can count to 255, but we can also say zero. So any of the three colors has 256 symbols. If you cube 256, you get 16,777,216.</p>
 
