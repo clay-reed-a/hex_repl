@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	padding: 1em 0 3em 1.5em;
+	padding: 1.5em 0 3em 2.5em;
 	overflow: auto;
 }
 
@@ -31,8 +31,8 @@ code {
 }
 
 p {
-	margin: .5em 0;
-	line-height: 1em;
+	margin: .75em 0 1em;
+	line-height: 1.25;
 }
 
 nav ul li {
@@ -88,7 +88,7 @@ div#messages {
 	float: left;
 	width: 40%;
 	height: 30em;
-	padding: 0 5em;
+	padding: 0 2.5em;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
@@ -96,16 +96,16 @@ div#messages {
 .recents p {
 	text-align: right;
 	font-size: 2.75em;
+	line-height: 1;
+	margin: 0.5em 0;
 }
 
-section.writing,
-section.about, 
-section.recents, 
-section.use {
-	transition: display 1s linear; 
- 	-o-transition: display 1s linear; 
-  -moz-transition: display 1s linear; 
-  -webkit-transition: display 1s linear;
+section.writing p,
+section.about p {
+	transition: color 1s; 
+ 	-o-transition: color 1s; 
+  -moz-transition: color 1s; 
+  -webkit-transition: color 1s;
 }
 
 /* WRITING */
@@ -138,6 +138,7 @@ div.wrapper {
 	float: left;
 	width: 60%;
 	padding: 0 5em;
+	border-left: 1px solid #eee;
 }
 
 #display_color {
