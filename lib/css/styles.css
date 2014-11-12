@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	padding: 1em 0 2em 1.5em;
+	padding: 1em 0 3em 1.5em;
 	overflow: auto;
 }
 
@@ -86,7 +86,7 @@ li ul {
 
 div#messages {
 	float: left;
-	width: 50%;
+	width: 40%;
 	height: 30em;
 	padding: 0 5em;
 	overflow-y: scroll;
@@ -111,17 +111,12 @@ section.use {
 /* WRITING */
 
 .writing_page,
-.about_page {
-	margin: -1em 2em;
-	margin: auto;
-	max-width: 30em;
-}
-
+.about_page, 
 section.writing,
 section.about,
 section.recents {
 	margin: auto;
-	max-width: 30em;
+	max-width: 35em;
 }
 
 section.use {
@@ -141,7 +136,7 @@ section.use h2 {
 div.wrapper {
 	position: relative; 
 	float: left;
-	width: 50%;
+	width: 60%;
 	padding: 0 5em;
 }
 

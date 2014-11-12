@@ -30,7 +30,7 @@ When you have some slots to put symbols in, start by counting all the symbols yo
 
 With hex, for each color slot we can count to 255, but we can also say zero. So any of the three colors has 256 symbols. If you cube 256, you get 16,777,216. 
 
-There are so many hex colors, it is hard to remember how to make the colors you want. I made this site because I wanted to be able to play with hex colors until I understood them. 
+There are so many hex colors that it is hard to remember how to make the colors you want. I made this site because I wanted to be able to play with hex colors until I understood them. 
 
 ###I wanna make purple. No, actually I wanna make my favorite kind of green. 
 
