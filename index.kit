@@ -7,7 +7,8 @@ minimum-scale=1.0, maximum-scale=1.0">
 	<title>Hex Color REPL</title>
 	<link rel="stylesheet" type="text/css" href="/lib/css/styles.css">
 	<script src="/lib/js/model.js"></script>
-	<script src="lib/js/site.js"></script>
+	<script src="/lib/js/site.js"></script>
+	<script src="/lib/js/input.js"></script>
 </head>
 <body>
 	<header>
@@ -22,15 +23,16 @@ minimum-scale=1.0, maximum-scale=1.0">
 	</header>
 		<section class="home">
 			<div id="messages">
-				<section class="no_show about">
+				<section class="about">
 					<!-- @import writing/about.html -->
 				</section>
-				<section class="no_show writing">
+				<section class="writing">
 					<!-- @import writing/writing.html --> 
 				</section>
 				<section class="use">
 					<!-- @import writing/use.html -->
 				</section>
+				<section class="recents"></section>
 			</div>
 			<div class="wrapper">
 				<div id="display_color">
