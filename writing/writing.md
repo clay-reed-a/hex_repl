@@ -10,7 +10,7 @@
 
 ###Well, I know *THAT*, but how do I make one?
 
-Hex color codes are formed from three numbers. Each number stands for one of three colors. The first number is for red, the second is for green & the third is for blue. If you mix these colors together, you can make more colors. 
+Hex color codes are formed from three numbers. Each number stands for one of three base colors. The first number is for red, the second is for green & the third is for blue. If you mix these colors together, you can make more colors. 
 
 Each number is two digits long, but, instead of going from just `0` to `9`, each digit can go all the way up to `f`. 
 
