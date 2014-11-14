@@ -2,7 +2,7 @@
 
 Hex Color REPL helps you learn hex color codes. I wanted to write hex color codes without a tool like Photoshop open. Switching between code & tool broke my flow. 
 
-When learning to program, I used [REPLs][REPL]. REPL stands for Read-Print-Eval-Loop, and, when you say it, it rhymes with <i>pebble</i> but not <i>bell</i>. REPLs helped me see what certain codes meant. With a REPL, you can write some code, and the REPL responds with what it means. I found if I practiced writing a code & seeing how the [REPL][] responded I could understand the code much better.  So I made a REPL just for hex color codes, because there wasn't one. 
+When learning to program, I used [REPLs][REPL]. REPL stands for Read-Print-Eval-Loop. It rhymes with <i>pebble</i> but not <i>bell</i>. REPLs helped me see what certain codes meant. With a REPL, you can write some code, and the REPL responds with what it means. I found if I practiced writing a code & seeing how the [REPL][] responded I could understand the code much better.  So I made a REPL just for hex color codes, because there wasn't one. 
 
 For some examples of [REPLs][REPL], look at [SLIME's REPL][SLIME], [`pry`][pry] or your browser's JavaScript console. 
 
