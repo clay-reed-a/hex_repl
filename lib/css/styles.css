@@ -47,10 +47,6 @@ blockquote {
 }
 
 a {
-	transition: color .3s linear; 
-  -o-transition: color .3s linear; 
-  -moz-transition: color .3s linear; 
-  -webkit-transition: color .3s linear;
 	text-decoration: none; 
 }
 
@@ -139,6 +135,16 @@ div.wrapper {
 	width: 60%;
 	padding: 0 5em;
 	border-left: 1px solid #eee;
+}
+
+#display_color, 
+#dipslay_red,
+#display_green,
+#display_blue {
+	transition: background-color .5s; 
+	-o-transition: background-color .5s; 
+	-moz-transition: background-color .5s; 
+  -webkit-transition: background-color .5s;
 }
 
 #display_color {
