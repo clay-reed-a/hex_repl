@@ -34,7 +34,7 @@ There are so many hex colors it is hard to remember how to make the colors you w
 
 ###I wanna make purple. No, actually I wanna make my favorite kind of green. 
 
-If there's a color you add more of than you do the other two, that color will  often get something like that color. Adding a little bit more or less of the other two colors will change it. 
+If there's a color you add more of than you do the other two, that color will  often get something like that color. Adding a little more or less of the other two colors will change it. 
 
 If you add mostly blue and red, you'll get purple. If you add mostly green and red, you'll get yellow. Adding blue and green together will get you some interesting blues, like teal and cyan. 
 
