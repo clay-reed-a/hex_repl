@@ -38,6 +38,6 @@ If there's a color you add more of than you do the other two, that color will al
 
 If you add mostly blue and red, you'll get purple. If you add mostly green and red, you'll get yellow. Adding blue and green together will get you some interesting blues, like teal and cyan. 
 
-The weird thing is that if you add hardly any colors at all, you'll get black or a really dark color. And if you add a whole lot of all the colors, you'll get white. This is because the colors on the screen are made by mixing different colored lights together, and, if you don't have any light, it is dark. 
+The weird thing is, if you add hardly any colors at all, you'll get black or a really dark color. And if you add a whole lot of all the colors, you'll get white. This is because the colors on the screen are made by mixing different colored lights together, and, if you don't have any light, it is dark. 
 
 [hex]: http://en.wikipedia.org/wiki/Web_colors#Hex_triplet
