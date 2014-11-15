@@ -152,7 +152,7 @@ div.wrapper {
 	width: 20em;
 	height: 20em;
 	margin: auto;
-	background-color: gray;
+	background-color: #808080;
 
 }
 
@@ -166,19 +166,21 @@ div.wrapper {
 	height: 5em;
 }
 
+#display_red {
+	background-color: #FF0000;
+}
+
 #display_green {
 	margin-left: 5em;
-	background-color: green; 
+	background-color: #008000; 
 }
 
 #display_blue {
-	background-color: blue;
+	background-color: #0000FF;
 	margin-left: 10em;
 }
 
-#display_red {
-	background-color: red;
-}
+
 
 #hex_input, 
 #input_label, #input_arrow {
