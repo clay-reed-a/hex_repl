@@ -1,8 +1,8 @@
-Project Learn Hex Codes 
-======================= 
+Hex REPL 
+========
 
-*Project Learn Hex Codes* is a simple interaction intended to aid the understanding of hex color codes. 
+Squares, a blinking cursor and, in the margins, some guy explaining it all to a small child.  
 
-Conscious use of the interaction should ultimately impart onto the student the ability to independently form & confidently manipulate hex color code sequences. 
+In a situation like this, what else is there to do but enter a hex code? I really think [you should][hexrepl]. 
 
-The Project will also include some introductory material about hex color codes. 
+[hexrepl]: hexrepl.com 
